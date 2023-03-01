@@ -1,15 +1,15 @@
 //nav
 
-window.onscroll = function(){
+window.onscroll = function() {
     const header = document.querySelector('header');
     const fixedNav = header.offsetTop;
     const scroll = document.querySelector('#scroll');
 
-    if(window.pageYOffset > fixedNav){
+    if (window.pageYOffset > fixedNav) {
         header.classList.add('navbar-fixed');
         scroll.classList.remove('hidden');
         scroll.classList.add('flex');
-    } else{
+    } else {
         header.classList.remove('navbar-fixed');
         scroll.classList.remove('flex');
         scroll.classList.add('hidden');
@@ -19,19 +19,19 @@ window.onscroll = function(){
 
 const ham = document.querySelector('#ham');
 const navMenu = document.querySelector('#nav-menu');
-ham.addEventListener('click', function(){
- ham.classList.toggle('ham-active');
- navMenu.classList.toggle('hidden');
+ham.addEventListener('click', function() {
+    ham.classList.toggle('ham-active');
+    navMenu.classList.toggle('hidden');
 });
 
 //click
 window.addEventListener('click', function(e) {
-    if(e.target !=ham && e.target != navMenu){
-        ham.classList.remove('ham-active'); 
+    if (e.target != ham && e.target != navMenu) {
+        ham.classList.remove('ham-active');
         navMenu.classList.add('hidden');
 
     }
-    
+
 });
 
 const darkToggle = document.querySelector('#dark-toggle');
