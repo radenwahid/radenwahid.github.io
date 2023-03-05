@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  
+
   // ...
   content: ["./Public/**/*.{html,js}"],
   darkMode: 'class',
@@ -9,8 +9,8 @@ module.exports = {
       center:true,
       padding: '16px',
     },
-    
-  
+
+
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],

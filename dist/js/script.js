@@ -39,3 +39,4 @@ const html = document.querySelector('#html');
 darkToggle.addEventListener('click', function() {
     darkToggle.checked ? html.classList.add('dark') : html.classList.remove('dark');
 });
+
