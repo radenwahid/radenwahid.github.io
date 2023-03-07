@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-
+  darkMode: 'media',
   // ...
   content: ["./Public/**/*.{html,js}"],
-  darkMode: 'class',
   theme: {
     container:{
       center:true,
       padding: '16px',
+      colors: {
+        'dark': '#0f172a',
+      },
     },
 
 

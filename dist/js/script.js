@@ -37,6 +37,10 @@ window.addEventListener('click', function(e) {
 const darkToggle = document.querySelector('#dark-toggle');
 const html = document.querySelector('#html');
 darkToggle.addEventListener('click', function() {
-    darkToggle.checked ? html.classList.add('dark') : html.classList.remove('dark');
+   if (darkToggle.checked) {
+    html.classList.add('dark')
+   } else {
+    html.classList.remove('dark')
+   }
 });
 
