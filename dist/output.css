@@ -855,11 +855,6 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .fill-current {
   fill: currentColor;
 }
@@ -1141,7 +1136,7 @@ body {
   display: inline-block;
   overflow: hidden;
   letter-spacing: 2px;
-  animation: typing 5s steps(30, end), blink .75s step-end infinite;
+  animation: typing 3s steps(30, end), blink .75s step-end infinite;
   white-space: nowrap;
   font-size: 30px;
   font-weight: 700;
@@ -1155,7 +1150,7 @@ body {
   }
 
   to {
-    width: 100%
+    width: 55%
   }
 }
 
