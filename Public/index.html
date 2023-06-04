@@ -88,7 +88,7 @@
     <!-- akhir -->
     <!--  awal hero -->
     <section id="home" class="pt-36 dark:bg-black ">
-        <div class="container">
+        <div class="container ">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
                     <h1 class="text-base font-semibold text-teal-700 md:text-xl">Halo Everyone
@@ -101,7 +101,7 @@
                 <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl ">Mahasiswa | <span id="flip" class=" text-slate-900 dark:text-white"> Programmer</span></h2>
 
                 <P class="font-medium text-slate-400 mb-10 leading-relaxed ">Saya manusia biasa yang kadang kesal karena program eror mulu!</P>
-                <a href="https://web.whatsapp.com//wa.me/6288218773247 " target="_blank "  class="text-base font-semibold text-white bg-teal-700 py-3 px-8 rounded-full hover:shadow-lg hover:bg-teal-600 transition duration-300 ease-in-out " >Hubungi Saya</a>
+                <a href="https://wa.me/6288218773247?text=Hallo saya ingin membuat website" target="_blank "  class="text-base font-semibold text-white bg-teal-700 py-3 px-8 rounded-full hover:shadow-lg hover:bg-teal-600 transition duration-300 ease-in-out " >Hubungi Saya</a>
             </div>
 
 
@@ -292,27 +292,27 @@
             <div class="max-w-xl mx-auto text-center mb-16 ">
                 <h4 class="font-semibold text-lg text-teal-700 mb-2 ">Kontak</h4>
                 <h2 class="font-bold text-slate-900 text-3xl mb-4 dark:text-white">Hubungi Kami</h2>
-                <p class="font-medium text-md text-slate-500 dark:text-slate-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Non voluptatum maiores tempore ducimus corrupti delectus.</p>
+                <p class="font-medium text-md text-slate-500 dark:text-slate-300">Jika anda berminat membuat website silahkan hubungi kami dibawah ini.</p>
                 </div>
         </div>
 
-        <form>
+        <form action="send.php" method="post" target="_blank">
             <div class="w-full lg:w-2/3 lg:mx-auto ">
         <div class="w-full mb-8 px-4 ">
-            <label for="name " class="text-base text-teal-700 font-bold ">Nama</label>
-            <input type="text " id="name " class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-teal-700 focus:ring-1 focus:border-teal-700 dark:bg-slate-900 dark:text-white ">
+            <label for="name" class="text-base text-teal-700 font-bold ">Nama</label>
+            <input type="text" id="name" name="name" class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-teal-700 focus:ring-1 focus:border-teal-700 dark:bg-slate-900 dark:text-white ">
+        </div>
+        <div class="w-full mb-8 px-4">
+            <label for="name" class="text-base text-teal-700 font-bold ">Email</label>
+            <input type="email" id="email" name="email"  class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-teal-700 focus:ring-1 focus:border-teal-700 dark:bg-slate-900 dark:text-white">
         </div>
         <div class="w-full mb-8 px-4 ">
-            <label for="name " class="text-base text-teal-700 font-bold ">Email</label>
-            <input type="email " id="email " class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-teal-700 focus:ring-1 focus:border-teal-700 dark:bg-slate-900 dark:text-white">
-        </div>
-        <div class="w-full mb-8 px-4 ">
-            <label for="massage " class="text-base text-teal-700 font-bold ">Pesan</label>
-            <textarea type="text " id="name " class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-teal-700 focus:ring-1 focus:border-teal-700 h-32 dark:bg-slate-900 dark:text-white"></textarea>
+            <label for="massage" class="text-base text-teal-700 font-bold ">Pesan</label>
+            <textarea type="text" id="pesan" name="pesan" class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-teal-700 focus:ring-1 focus:border-teal-700 h-32 dark:bg-slate-900 dark:text-white"></textarea>
         </div>
         <div class="w-full px-4 ">
-            <button class="text-base font-semibold text-white bg-teal-700 py-3 px-8 rounded-full w-full hover:bg-teal-600 transition duration-300 ease-in-out ">Kirim</button>
+            <input type="hidden"  name="noWa" value="6288218773247">
+            <button type="submit" name="submit" class="text-base font-semibold text-white bg-teal-700 py-3 px-8 rounded-full w-full hover:bg-teal-600 transition duration-300 ease-in-out ">Kirim</button>
         </div>
     </div>
         </form>
@@ -335,13 +335,13 @@
                 <h3 class="font-semibold text-xl text-white mb-5 ">Kategori</h3>
                 <ul class="text-slate-200 ">
                     <li>
-                        <a href="# " class="inline-block text-base hover:text-teal-700 mb-3 ">Programming</a>
+                        <a href="# " class="inline-block text-base hover:text-teal-700 mb-3 ">website</a>
                     </li>
                     <li>
-                        <a href="# " class="inline-block text-base hover:text-teal-700 mb-3 ">Programming</a>
+                        <a href="# " class="inline-block text-base hover:text-teal-700 mb-3 ">program</a>
                     </li>
                     <li>
-                        <a href="# " class="inline-block text-base hover:text-teal-700 mb-3 ">Programming</a>
+                        <a href="# " class="inline-block text-base hover:text-teal-700 mb-3 ">frontend</a>
                     </li>
                 </ul>
             </div>
